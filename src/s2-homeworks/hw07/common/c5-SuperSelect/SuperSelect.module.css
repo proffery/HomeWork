@@ -2,8 +2,17 @@
 }
 
 .select:focus {
+  outline: none;
 }
-
-
+.option {
+  border-radius: 2px;
+  border: 1px solid #c2c2c2;
+  background: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: #000;
+}
 .option:hover {
+  background-color: #1e90ff !important;
+  color: #fff !important;
 }
