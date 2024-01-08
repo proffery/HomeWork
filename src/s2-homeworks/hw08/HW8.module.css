@@ -1,23 +1,53 @@
 .item {
+  display: flex;
+  height: 36px;
+  padding: 0 17px;
+  align-items: center;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
+    border-bottom: none
 }
 
 .users {
+  display: flex;
+  flex-direction: column;
 }
 
 .buttonsContainer {
+  display: flex;
+  gap: 12px;
+  justify-content: end;
+  align-items: center;
+  margin: 18px;
 }
 
 .container {
 }
 
 .thead {
+  display: flex;
+  height: 36px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #e5e5e5;
+  padding: 0 17px;
+  tr {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .nameCol {
+  width: 50%;
 }
 
 .ageCol {
+  width: 50%;
 }
