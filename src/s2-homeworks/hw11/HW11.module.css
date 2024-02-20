@@ -1,8 +1,21 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
 }
 
 .wrapper {
+    display: flex;
+    width: 220px;
+    gap: 20px;
+    align-items: center;
 }
 
 .number {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;  
 }
