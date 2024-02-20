@@ -39,7 +39,7 @@ function HW11() {
                             value={value1}
                             onChange={change}
                         />
-                        <span id={'hw11-fake'} style={{opacity: 0}} className={s.number}>{''}</span>
+                        <span id={'hw11-fake'} style={{opacity: 0}} className={s.number}>{value2}</span>
                     </div>
                     <div className={s.wrapper}>
                         <span id={'hw11-value-1'} className={s.number}>{value1}</span>

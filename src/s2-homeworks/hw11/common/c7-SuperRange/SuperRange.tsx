@@ -9,6 +9,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                     color: '#00CC22',
                     height: 3,
                     padding: '13px 0',
+                    width: '147px',
                     '& .MuiSlider-thumb': {
                       height: 18,
                       width: 18,
@@ -37,7 +38,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                       height: 4,
                     },
                     '& .MuiSlider-rail': {
-                      color: '#8B8B8B',
+                        color: '#8B8B8B',
                       height: 4,
                     },
                   }

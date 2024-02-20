@@ -6,7 +6,6 @@
 
 .wrapper {
     display: flex;
-    width: 220px;
     gap: 20px;
     align-items: center;
 }
@@ -18,5 +17,6 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;  
-    width: 28px;
+    width: 30px;
+    height: 20px;
 }
