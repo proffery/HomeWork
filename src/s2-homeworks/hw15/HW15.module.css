@@ -2,26 +2,64 @@
     width: 50vw;
 }
 
-.developer {
-
-}
-
 .techHeader {
+    display: flex;
     width: 50vw;
+    gap: 5px;
 }
 
 .developerHeader {
-
+    display: flex;
+    gap: 5px;
 }
 
 .row {
     display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 12px 17px;
 }
-
+.row:last-of-type {
+    border-bottom: none
+}
 .rowHeader {
     display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: #e5e5e5;
+    padding: 10px 17px;
 }
 
 .loading {
-
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    background: url("./../hw10/loader.svg") no-repeat center;
+    width: 90px;
+    height: 90px;
+    animation: spin 4s linear infinite; 
 }
+
+.loadingBackground {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+@keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }

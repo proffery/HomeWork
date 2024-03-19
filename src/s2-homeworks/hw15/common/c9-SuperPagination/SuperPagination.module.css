@@ -1,9 +1,23 @@
 .pagination {
     display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 36px 0;
 }
 
 .text1 {
-
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-transform: capitalize;
 }
 
 .text2 {
